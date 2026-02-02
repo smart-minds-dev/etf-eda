@@ -20,8 +20,8 @@ def download_etf_data(tickers: List[str], start_date: str, end_date: str) -> pd.
 
 def main() -> None:
     # 1. SETUP
-    us_etfs = ["SPY", "VTI", "SCHD", "BND", "SPLV"]
-    canada_etfs = ["XIC.TO", "VCN.TO", "VDY.TO", "ZAG.TO", "VFV.TO"]
+    us_etfs = us_etfs = ["SPY", "VTI", "SCHD", "BND", "SPLV", "IAU"]
+    canada_etfs = ["XIC.TO", "VCN.TO", "VDY.TO", "ZAG.TO", "VFV.TO", "ZLB.TO"]
     tickers = us_etfs + canada_etfs
     
     start_date = "2014-01-01"
